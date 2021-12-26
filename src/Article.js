@@ -103,8 +103,8 @@ class Article extends Component {
           <Route path="/create/article" render={() => <ArticleCreate />} />
 
           <Route path={article.title}
-            // render={() => <ArticleDetail article={article} />} 
-      component={ArticleDetail}
+            render={() => <ArticleDetail article={article} />} 
+      // component={ArticleDetail}
             />
                         
             {/* <Route path="/not-found" component={NotFound} />
